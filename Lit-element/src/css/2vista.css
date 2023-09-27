@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+body::before {
+    content: "";
+    display: block;
+    position: fixed;
+    width: 99%;
+    height: 84%;
+    background-image: url(""); 
+    background-size: 32% 54%;
+    background-position: right bottom;
+    background-color: white;
+    opacity: 0.5; 
+    filter: blur(9px); 
+    z-index: -1; 
+    background-repeat: no-repeat;
+}

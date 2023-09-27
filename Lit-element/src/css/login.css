@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url("../img/indexizqui.jpg"), url("../img/indexdere.png"), url("../img/logo.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left top, right bottom, 81% 66%;
+    background-size: 50%, 50%, 26%;
+  
+  }
